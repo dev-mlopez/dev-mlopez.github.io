@@ -1,14 +1,25 @@
+:root {
+    --main-color: #386FA4;
+    --second-color: #1F3A55;
+    --third-color: #98B7CE;
+    --white-color: #F7FFF7;
+    --black-color: #050505;
+    /* --main-color: #087CA7;
+    --second-color: #031A6B;
+    --third-color: #004385;
+    --white-color: #F1F5F2; */
+}
 body {
-    background-color: #031A6B;
-    color: #F1F5F2;
+    background-color: var(--second-color);
+    color: var(--white-color);
     padding: 0;
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
 
 header {
-    background-color: #087CA7;
-    border-bottom: 0.25rem solid #004385;
+    background-color: var(--main-color);
+    border-bottom: 0.25rem solid var(--third-color);
     padding: 1rem 0;
     margin-bottom: 2rem;
     text-align: center;
@@ -29,9 +40,9 @@ h1 {
 
 .main_profile,
 .main__container_info {
-    border-bottom: 0.25rem solid #004385;
+    border-bottom: 0.25rem solid var(--third-color);
     border-radius: 2rem;
-    background-color: #087CA7;
+    background-color: var(--main-color);
     padding: 1rem;
 }
 
@@ -60,23 +71,23 @@ h1 {
 
 .profile_rrss ul li a {
     padding: .25rem;
-    color: #F1F5F2;
+    color: var(--white-color);
     text-decoration: none;
 }
 
 .profile_rrss ul li a:hover {
-    color: #031A6B;
+    color: var(--second-color);
 }
 
 .profile_version {
-    border-top: 1px solid #031A6B;
+    border-top: 1px solid var(--second-color);
     text-align: center;
 }
 
 .profile_version table,
 .profile_version th,
 .profile_version td {
-    border: 1px solid #031A6B;
+    border: 1px solid var(--second-color);
 }
 
 .profile_version th,
@@ -100,15 +111,15 @@ h1 {
 
 .main__container_info a {
     padding: .75rem 2rem;
-    background-color: #004385;
-    border: 1px solid #004385;
+    background-color: var(--third-color);
+    border: 1px solid var(--third-color);
     border-radius: 1rem;
     text-decoration: none;
-    color: #F1F5F2;
+    color: var(--white-color);
 }
 
 .main__container_info a:hover {
-    background-color: #087CA7;
+    background-color: var(--main-color);
 }
 
 .main__container_project {
@@ -129,7 +140,7 @@ h1 {
     flex-direction: column;
     border-radius: 2rem;
     width: 300px;
-    border: 1px solid #004385;
+    border: 1px solid var(--third-color);
 }
 
 .main__card img {
@@ -137,7 +148,7 @@ h1 {
     border-top-left-radius: 2rem;
     width: 100%;
     height: 100%;
-    border-bottom: 1px solid #004385;
+    border-bottom: 1px solid var(--third-color);
 }
 
 .main__card_info h3 {
@@ -152,7 +163,7 @@ h1 {
 }
 
 .main__card_info p {
-    border-bottom: 1px solid #004385;
+    border-bottom: 1px solid var(--third-color);
     margin: 0;
     padding: .5rem;
 }
@@ -165,12 +176,12 @@ h1 {
     width: 50%;
     padding: .75rem;
     text-decoration: none;
-    background-color: #004385;
-    color: #F1F5F2;
+    background-color: var(--third-color);
+    color: var(--white-color);
 }
 
 .btn_primary {
-    border-right: 1px solid #031A6B;
+    border-right: 1px solid var(--second-color);
     border-bottom-left-radius: 2rem;
 }
 
@@ -179,7 +190,7 @@ h1 {
 }
 
 .main__card a:hover {
-    background-color: #087CA7;
+    background-color: var(--main-color);
 }
 
 @media (max-width: 1220px) {
@@ -205,7 +216,7 @@ h1 {
     .profile_date,
     .profile_language,
     .profile_skills{
-        border-bottom: 1px solid #031A6B;
+        border-bottom: 1px solid var(--second-color);
     }
 
     
