@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Componente de Calificacion con Interacción</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="panelRating">
+            <div class="panelRating__img">
+                <img src="img/icon-star.svg" alt="icon-star">
+            </div>
+            <h1 class="panelRating__title">¿Cómo lo hicimos?</h1>
+            <p class="panelRating__text">Haznos saber cómo nos fue con su solicitud de soporte. Todos los comentarios son apreciados para ayudarnos a mejorar nuestra oferta!</p>
+            <div class="panelRating__form_number">
+                <div class="panelRating__form_option">
+                    <input type="radio" name="option" value="1" id="option1" class="rating">
+                    <label for="option1" class="rating__label">1</label>
+                </div>
+                <div class="panelRating__form_option">
+                    <input type="radio" name="option" value="2" id="option2" class="rating">
+                    <label for="option2" class="rating__label">2</label>
+                </div>
+                <div class="panelRating__form_option">
+                    <input type="radio" name="option" value="3" id="option3" class="rating">
+                    <label for="option3" class="rating__label">3</label>
+                </div>
+                <div class="panelRating__form_option">
+                    <input type="radio" name="option" value="4" id="option4" class="rating">
+                    <label for="option4" class="rating__label">4</label>
+                </div>
+                <div class="panelRating__form_option">
+                    <input type="radio" name="option" value="5" id="option5" class="rating">
+                    <label for="option5" class="rating__label">5</label>
+                </div>
+            </div>
+            <input type="button" value="ACEPTAR" class="panelRating__form_btn">
+        </div>
+        <div class="panelResult is-active">
+            <div class="panelResult__img">
+                <img src="img/illustration-thank-you.svg" alt="thank-you">
+            </div>
+            <p class="panelResult__selected">Has seleccionado <span></span> de 5</p>
+            <h2 class="panelResult__title">¡Muchas Gracias!</h2>
+            <p class="panelResult__text">Te agradecemos por tomarse el tiempo para dar una calificación. Si alguna vez necesita más apoyo, ¡no dudes en ponerte en contacto!</p>
+
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
