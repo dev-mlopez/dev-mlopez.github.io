@@ -47,6 +47,7 @@ h2 {
 /* **** Header **** */
 .header {
     background-color: var(--main-color);
+    border-bottom: 1px solid var(--prussianBlue-color);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
