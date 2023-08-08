@@ -565,6 +565,7 @@ h2 {
                 position: fixed;
                 display: flex;
                 flex-direction: column;
+                justify-content: center;
                 top: 0;
                 right: -65%;
                 bottom: 55px;
@@ -572,6 +573,7 @@ h2 {
                 width: 65%;
                 z-index: 998;
                 background-color: var(--main-color);
+                border-left: 1px solid var(--prussianBlue-color);
                 transition: right .3s ease;
             }
 
