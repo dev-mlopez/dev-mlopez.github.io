@@ -1,4 +1,5 @@
 :root {
+    --main-color: #16446B;
     --main-font: 'Overpass', sans-serif;
     --orange-primary-color: hsl(25, 97%, 53%);
     --white-neutral-color: hsl(0, 0%, 100%);
@@ -13,7 +14,7 @@
 html {
     font-family: var(--main-font);
     color: var(--white-neutral-color);
-    background-color: var(--veryDarkBlue-neutral-color);
+    background-color: var(--main-color);
 }
 
 body {
@@ -33,7 +34,7 @@ body {
     margin-right: auto;
     display: flex;
     justify-content: center;
-    margin-top: 7%;
+    margin-top: 7%
 }
 
 /* **** Panel Rating **** */

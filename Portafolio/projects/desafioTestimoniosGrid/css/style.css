@@ -1,5 +1,9 @@
+:root {
+    --main-color: #16446B;
+}
+
 body {
-    background-color: hsl(0, 0%, 81%);
+    background-color: var(--main-color);
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-size: 13px;
     margin: 0;

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuevo Portafolio Personal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <p>ML</p>
+        </div>
+        <nav class="header__nav"></nav>
+        <button class="header__menu_btn">
+            <span class="material-symbols-outlined header__menu_icon">
+                menu
+            </span>
+        </button>
+    </header>
+    <main class="main">
+        <section id="home" class="main__section">
+            <div class="home__container">
+                <p class="home__presentation">Hola, mi nombre es</p>
+                <h1 class="home__name">Mauricio López</h1>
+                <h2 id="home__title" class="home__title">Soy <span id="home__title_span">Desarrollador Front-End.</span></h2>
+                <p class="home__desc">Estudié la carrera de Ingeniería en Informática, la cual me permitió adquirir habilidades y conocer mi pasión en la creación y desarrollo de sitios web. Estoy en constante aprendizaje y adquiriendo nuevos conocimientos en diversas tecnologías.</p>
+                <a href="#projects" class="home__project_btn">Ver Proyectos</a>
+            </div>
+        </section>
+        <section id="aboutMe" class="main__section">
+            <h2 id="aboutMe__title" class="aboutMe__title">Sobre Mí</h2>
+            <div class="aboutMe__container"></div>
+        </section>
+        <section id="technology" class="main__section">
+            <h2 class="technology__title">Tecnologías</h2>
+            <p class="technology__desc">Estas son algunas tecnologías con las que he desarrollado.</p>
+            <div class="technology__moreExp">
+                <h3 class="technology__exp_title">
+                    Mayor Experiencia
+                </h3>
+                <div class="technology__moreExp_container"></div>
+            </div>
+            <div class="technology__otherExp">
+                <div class="technology__otherExp_container">
+                    <h3 class="technology__exp_title">
+                        Menor Experiencia
+                    </h3>
+                    <div class="technology__lessExp_container"></div>
+                </div>
+                <div class="technology__otherExp_container">
+                    <h3 class="technology__exp_title">
+                        Aprendiendo
+                    </h3>
+                    <div class="technology__learningExp_container"></div>
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="main__section">
+            <h2 id="projects__title" class="projects__title">Proyectos</h2>
+            <p class="projects__desc">Proyectos que realizo para practicar mis habilidades</p>
+            <div class="projects__container"></div>
+        </section>
+    </main>
+    <section class="rrss"></section>
+    <div class="menu"></div>
+    <script src="js/script.js" type="module"></script>
+</body>
+</html>

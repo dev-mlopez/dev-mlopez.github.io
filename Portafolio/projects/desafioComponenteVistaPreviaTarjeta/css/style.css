@@ -1,9 +1,13 @@
+:root {
+    --main-color: #16446B;
+}
+
 body {
     padding: 0;
     margin: 0;
     font-size: 15px;
     font-family: 'Lexend Deca', sans-serif;
-    background-color: hsl(0, 0%, 95%);
+    background-color: var(--main-color);
 
 }
 
