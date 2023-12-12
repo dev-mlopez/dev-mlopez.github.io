@@ -26,6 +26,11 @@ const d = document,
             alt: "GIT-logo",
             title: "Git"
         },
+        {
+            img: "img/technology/excel.png",
+            alt: "Excel-logo",
+            title: "Excel"
+        },
         
     ],
     technologyLessExpContent = [

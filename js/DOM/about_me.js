@@ -9,7 +9,7 @@ export default function aboutMe(id) {
                 class: "aboutMe__content_title",
             },
             {
-                text: `Egresado de Ingeniería en Informática y en proceso de titulación. Capacitado para enfrentar proyectos en el ámbito de la gestión, diseño y desarrollo de software, como también la adaptación de nuevas tecnologías de información y comunicaciones, calidad, seguridad y análisis de datos.</br> Actualmente aprendiendo programación FrontEnd con espectativas de transformarme en FullStack.`,
+                text: `Titulado de Ingeniería en Informática. Capacitado para enfrentar proyectos en el ámbito de la gestión, diseño y desarrollo de software, como también la adaptación de nuevas tecnologías de información y comunicaciones, calidad, seguridad y análisis de datos.</br> Actualmente aprendiendo programación FrontEnd con espectativas de transformarme en FullStack.`,
                 class: "aboutMe__content_text",
             }
         ];

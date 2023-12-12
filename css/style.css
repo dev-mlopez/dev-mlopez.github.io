@@ -448,7 +448,7 @@ h2 {
     border-bottom-right-radius: 1rem;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1024px) or (max-height: 390px) {
     /* **** Sección 1 - Portada **** */
     .home__container {
         width: 650px;
@@ -469,7 +469,7 @@ h2 {
         height: 13rem;
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 768px) or (max-height: 390px) {
 
         .main__section {
             padding: 3.25rem;
@@ -500,7 +500,7 @@ h2 {
             gap: .75rem;
         }
 
-        @media (max-width: 550px){
+        @media (max-width: 550px) or (max-height: 390px){
             .header {
                 /* display: none; */
                 top: auto;

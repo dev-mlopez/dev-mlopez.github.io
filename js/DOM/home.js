@@ -3,7 +3,7 @@ const d = document;
 export default function changeSubtitle(id) {
     const $text = d.getElementById(id),
         textContent = [
-            "Egresado en Ingeniería en Informática.",
+            "Titulado de Ingeniería en Informática.",
             "Desarrollador Front-End."
         ];
 
